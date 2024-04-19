@@ -152,3 +152,14 @@ html {
     min-height: 250px;
 }
 
+/* footer */
+.link-footer {
+    text-decoration: none;
+    color: #d1d1d1;
+    transform: all 0.3 ease-in;
+}
+
+.link-footer:hover {
+    color: #ffc107;
+}
+

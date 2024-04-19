@@ -299,22 +299,22 @@
                     <form action="/action_page.php">
                         <div class="row mb-3">
                             <div class="col">
-                                <input type="text" class="form-control" placeholder="Nome" name="name">
+                                <input type="text" class="form-control" placeholder="Nome" name="name" required>
                             </div>
                             <div class="col">
-                                <input type="text" class="form-control" placeholder="Telefone" name="phone">
+                                <input type="text" class="form-control" placeholder="Telefone" name="phone" required>
                             </div>
                         </div>
                         <div class="row mb-3">
                             <div class="col">
-                                <input type="email" class="form-control" placeholder="Email" name="email">
+                                <input type="email" class="form-control" placeholder="Email" name="email" required>
                             </div>
                             <div class="col">
-                                <input type="number" class="form-control" placeholder="Valor" name="DonateValue">
+                                <input type="number" class="form-control" placeholder="Valor" name="DonateValue" required>
                             </div>
                         </div>
                         <div class="mb-3">
-                            <select class="form-select" id="sel1" name="sellist1">
+                            <select class="form-select" id="sel1" name="sellist1" required>
                                 <option>Donate to</option>
                                 <option>2</option>
                                 <option>3</option>
@@ -365,25 +365,47 @@
             <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
                 <h6 class="poppins-medium txt-size02 text-warning">Links</h6>
                 <ul class="ps-0">
-                    <li><a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a></li>
-                    <li><a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a></li>
-                    <li><a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a></li>
+                    <li><a href="" target="_blank" class="poppins link-footer txt-size02">Home</a></li>
+                    <li><a href="" target="_blank" class="poppins link-footer txt-size02">About Us</a></li>
+                    <li><a href="" target="_blank" class="poppins link-footer txt-size02">Events</a></li>
+                    <li><a href="" target="_blank" class="poppins link-footer txt-size02">Contact</a></li>
+                    <li><a href="" target="_blank" class="poppins link-footer txt-size02">Sitemap</a></li>
                 </ul>
             </div>
             <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
                 <h6 class="poppins-medium txt-size02 text-warning">Outros</h6>
+                <ul class="ps-0">
+                    <li><a href="" target="_blank" class="poppins link-footer txt-size02">Privacy & Policy</a></li>
+                    <li><a href="" target="_blank" class="poppins link-footer txt-size02">terms of Use</a></li>
+                    <li><a href="" target="_blank" class="poppins link-footer txt-size02">Credits</a></li>
+                    <li><a href="" target="_blank" class="poppins link-footer txt-size02">FAQ</a></li>
+                </ul>
             </div>
             <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
                 <h6 class="poppins-medium txt-size02 text-warning">Contato</h6>
+                <ul class="ps-0">
+                    <p class="txt-size02 text-light"><i class="fas fa-map-marker-alt" style="color: #f1da0b;margin-right: 12px;"></i>Endereço</p>
+                    <p class="txt-size02 text-light"><i class="fas fa-phone-square" style="color: #f1da0b;margin-right: 12px;"></i>Telefone</p>
+                    <p class="txt-size02 text-light"><i class="fas fa-envelope" style="color: #f1da0b;margin-right: 12px;"></i>Email</p>
+                </ul>
             </div>
             <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
-                <h6 class="poppins-medium txt-size02 text-warning">Novidades</h6>
+                <h6 class="poppins-medium txt-size02 text-warning">Newsletter</h6>
+                <p class="txt-size02 text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, seluist aghunmpa.</p>
+                <form action="/action_page.php">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="email" name="mail">
+                        <button type="button" class="btn btn-warning poppins-medium">Registre-se</button>
+                    </div>
+                </form>
             </div>
         </div>
         <div class="row">
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                <div class="w-100 d-flex">
+                <div class="w-25">
                     <img src="./Images/" alt="Help Logo" width="200px" class="d-block"/>
+                </div>
+                <div class="w-75 d-flex justify-content-end">
                     <p class="txt-size02 text-white-50 mb-0">Feito por <a href="https://www.lfrdesign.com.br/" target="_blank" class="">Luiz Rodrigues</a> 2024.</p>
                 </div>
             </div>
