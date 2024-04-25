@@ -5,8 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="Favicon/favicon.ico" type="image/x-icon" />
-    <link rel="icon" type="image/png" sizes="32x32" href="Favicon/favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./Favicon/HelpFavicon.png" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -14,22 +13,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="CSS/indexGeneric_Style.css" />
-    <link rel="stylesheet" type="text/css" href="CSS/MediaQuery.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/GenericMediaQuery.css" />
 </head>
 <body>
 
 <section id="" class="w-100 d-block bg-dark p-4">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-1">
-                <a href="IndexGeneric.html" class="">
-                    <img src="./Images/" class="w-100 d-block" alt="Help Logo" />
-                </a>
-            </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-3">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
                 <div class="w-100 d-flex">
                     <div class="d-block m-2">
-                        <i class="fas fa-envelope" style="font-size: 24px;color: #f1da0b"></i>
+                        <i class="fas fa-envelope nav-icone"></i>
                     </div>
                     <div class="d-block text-start">
                         <h6 class="poppins-medium text-white-50 mb-0 txt-size02">Email</h6>
@@ -37,10 +31,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-3">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
                 <div class="w-100 d-flex">
                     <div class="d-block m-2">
-                        <i class="fas fa-envelope" style="font-size: 24px;color: #f1da0b"></i>
+                        <i class="fas fa-phone-square nav-icone"></i>
                     </div>
                     <div class="d-block text-start">
                         <h6 class="poppins-medium text-white-50 mb-0 txt-size02">Telefone</h6>
@@ -48,10 +42,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-3">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
                 <div class="w-100 d-flex">
                     <div class="d-block m-2">
-                        <i class="fas fa-envelope" style="font-size: 24px;color: #f1da0b"></i>
+                        <i class="fas fa-map-marker-alt nav-icone"></i>
                     </div>
                     <div class="d-block text-start">
                         <h6 class="poppins-medium text-white-50 mb-0 txt-size02">Endereço</h6>
@@ -59,7 +53,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-2">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
                 <div class="w-100 d-flex justify-content-end">
                     <button type="button" class="btn btn-warning poppins-medium rounded-0">Donate Now</button>
                 </div>
@@ -68,28 +62,69 @@
 
         <div class="row">
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                <div id="navFlex" class="w-100 d-inline-flex p-2 bg-light">
-                    <nav class="navbar navbar-expand-lg">
-                        <div class="container-fluid">
-                            <!-- <a class="navbar-brand" href="#">Logo</a> -->
+                <div id="navFlex" class="w-100 d-flex p-2 bg-light">
+                    <div id="MenuNav" class="d-block">
+                        <nav class="navbar navbar-expand-lg py-0">
+                            <a class="navbar-brand" href="#">
+                                <img src="./Images/HelpLogoColor.png" alt="Help Logotipo" class="mx-2 d-block" width="100px" height="auto" />
+                            </a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                             <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                                <ul class="navbar-nav">
+                                <ul class="w-100 navbar-nav">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Link</a>
+                                        <a class="nav-link poppins txt-size02 nav-active" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle  poppins txt-size02" data-bs-toggle="dropdown" href="#">Carreiras</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Lista de carreiras</a></li>
+                                            <li><a class="dropdown-item" href="#">Inscrever-se</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle  poppins txt-size02" data-bs-toggle="dropdown" href="#">Eventos</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Evento fixo</a></li>
+                                            <li><a class="dropdown-item" href="#">Evento comemorativo</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle  poppins txt-size02" data-bs-toggle="dropdown" href="#">Páginas</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Link 1</a></li>
+                                            <li><a class="dropdown-item" href="#">Link 2</a></li>
+                                            <li><a class="dropdown-item" href="#">Link 3</a></li>
+                                            <li><a class="dropdown-item" href="#">Link 4</a></li>
+                                        </ul>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Link</a>
+                                        <a class="nav-link poppins txt-size02" href="#">Blog</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Link</a>
-                                    </li>    
+                                        <a class="nav-link poppins txt-size02" href="#">Contato</a>
+                                    </li>
                                 </ul>
                             </div>
-                        </div>
-                    </nav>
+                        </nav>
+                    </div>
+                    <div id="socialNav" class="d-flex align-items-center justify-content-end">
+                        <ul class="list-none d-flex flex-row">
+                            <li class="list-group-item">
+                                <p class="poppins txt-size02 text-dark-50">Siga-nos</p>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="nav-link poppins txt-size02 m-1" href="#"><i class='fab fa-facebook nav-icone'></i></a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="nav-link poppins txt-size02 m-1" href="#"><i class='fab fa-instagram nav-icone'></i></a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="nav-link poppins txt-size02 m-1" href="#"><i class='fab fa-twitter-square nav-icone'></i></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -133,9 +168,9 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
-                <div id="" class="w-100 d-flex flex-column p-3 bg-light text-center bg-white">
+                <div id="" class="w-100 d-flex flex-column p-3 bg-light text-center bg-white mb-3">
                     <div class="w-50 d-block p-4 mx-auto">
-                        <i class="fas fa-envelope" style="font-size: 24px;color: #f1da0b"></i>
+                        <i class="fas fa-envelope nav-icone"></i>
                     </div>
                     <h6 class="poppins-medium">Seja um voluntário</h6>
                     <p class="txt-size02 text-dark-50 mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
@@ -144,9 +179,9 @@
             </div>
 
             <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
-                <div id="" class="w-100 d-flex flex-column p-3 bg-light text-center bg-white">
+                <div id="" class="w-100 d-flex flex-column p-3 bg-light text-center bg-white mb-3">
                     <div class="w-50 d-block p-4 mx-auto">
-                        <i class="fas fa-envelope" style="font-size: 24px;color: #f1da0b"></i>
+                        <i class="fas fa-envelope nav-icone"></i>
                     </div>
                     <h6 class="poppins-medium">Seja um voluntário</h6>
                     <p class="txt-size02 text-dark-50 mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
@@ -155,10 +190,10 @@
             </div>
 
             <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
-                <div id="" class="w-100 d-flex bg-white">
+                <div id="" class="w-100 d-flex bg-white mb-3">
                     <div class="w-50 d-inline-block p-3 text-center">
                         <div class="w-50 d-block p-4 mx-auto">
-                            <i class="fas fa-envelope" style="font-size: 24px;color: #f1da0b"></i>
+                            <i class="fas fa-envelope nav-icone"></i>
                         </div>
                         <h6 class="poppins-medium">Seja um voluntário</h6>
                         <p class="txt-size02 text-dark-50 mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
@@ -362,7 +397,7 @@
 <footer id="Footer" class="w-100 d-flex bg-dark p-4">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+            <div class="col-4 col-sm-4 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
                 <h6 class="poppins-medium txt-size02 text-warning">Links</h6>
                 <ul class="ps-0">
                     <li><a href="" target="_blank" class="poppins link-footer txt-size02">Home</a></li>
@@ -372,7 +407,7 @@
                     <li><a href="" target="_blank" class="poppins link-footer txt-size02">Sitemap</a></li>
                 </ul>
             </div>
-            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+            <div class="col-4 col-sm-4 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
                 <h6 class="poppins-medium txt-size02 text-warning">Outros</h6>
                 <ul class="ps-0">
                     <li><a href="" target="_blank" class="poppins link-footer txt-size02">Privacy & Policy</a></li>
@@ -381,7 +416,7 @@
                     <li><a href="" target="_blank" class="poppins link-footer txt-size02">FAQ</a></li>
                 </ul>
             </div>
-            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+            <div class="col-4 col-sm-4 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
                 <h6 class="poppins-medium txt-size02 text-warning">Contato</h6>
                 <ul class="ps-0">
                     <p class="txt-size02 text-light"><i class="fas fa-map-marker-alt" style="color: #f1da0b;margin-right: 12px;"></i>Endereço</p>
@@ -402,12 +437,15 @@
         </div>
         <div class="row">
             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                <div class="w-25">
-                    <img src="./Images/" alt="Help Logo" width="200px" class="d-block"/>
+                <div class="w-100 d-flex">
+                    <div class="w-50 d-inline-block">
+                        <img src="./Images/HelpLogoWhite.png" alt="Help Logotipo" class="d-block" width="80px" height="auto" />
+                    </div>
+                    <div class="w-50 d-flex justify-content-end">
+                        <p class="txt-size02 text-white-50 mb-0">Feito por <a href="https://www.lfrdesign.com.br/" target="_blank" class="">Luiz Rodrigues</a> 2024.</p>
+                    </div>
                 </div>
-                <div class="w-75 d-flex justify-content-end">
-                    <p class="txt-size02 text-white-50 mb-0">Feito por <a href="https://www.lfrdesign.com.br/" target="_blank" class="">Luiz Rodrigues</a> 2024.</p>
-                </div>
+                
             </div>
         </div>
     </div>
