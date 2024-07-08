@@ -147,6 +147,11 @@ html {
     color: rgba(255, 255, 255, 0.5);
 }
 
+.img-home {
+    width: 100px;
+    height: auto;
+}
+
 /* navFlex */
 #navFlex {
     position: relative;
@@ -173,6 +178,10 @@ html {
 /* Carrousel */
 #Carrousel {
     min-height: 250px;
+}
+
+.img-carousel {
+    height: auto;
 }
 
 /* footer */
